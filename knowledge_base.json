@@ -1,0 +1,32 @@
+{
+  "business_name": "Manda Picanha",
+  "operation_type": "Gastronomia / Restaurante / Churrasco / Pizzaria",
+  "data_sources": [
+    "BASEDRE2025.xlsx",
+    "BASEDRE2026.xlsx",
+    "FATURAMENTO LOJAS.xlsx"
+  ],
+  "definitions": {
+    "Vendas Brutas": "Total faturado sem descontos de impostos diretos no dashboard.",
+    "CMV (Geral)": "Custo de Mercadoria Vendida (Insumos). Meta para carnes: 28-32%. Meta para pizzas: 22-25%.",
+    "RH (Folha)": "Salários + encargos + benefícios. Meta percentual: 18% a 22%.",
+    "Ticket Médio": "Faturamento / número de transações. Target 2026: R$ 85,00.",
+    "REVPAS": "Revenue Per Available Seat hour (Faturamento / [Assentos * Horas de Operação]). Ideal: > R$ 12,00.",
+    "Markup Sugerido": "Carnes: 3.2x a 3.5x. Bebidas: 4.0x a 5.0x."
+  },
+  "major_units": [
+    { "name": "ALMA BOUTIQUE BAR", "type": "Gastronomia / Bar", "strategic_focus": "Mix de produtos premium e coquetelaria." },
+    { "name": "MAGDALENA GASTROBAR", "type": "Gastrobar / Eventos", "strategic_focus": "Volume de vendas e happy hour." },
+    { "name": "MP SHOPPING RIO VERDE", "type": "Restaurante Shopping", "strategic_focus": "Agilidade e ticket médio por prato executivo." },
+    { "name": "MP STEAK BAR", "type": "Churrascaria / Steakhouse", "strategic_focus": "Controle rígido de quebras de carne (CMV)." },
+    { "name": "PETRA BAR", "type": "Bar / Entretenimento", "strategic_focus": "Giro de estoque de bebidas e petiscos." },
+    { "name": "MANDA PIZZA MARISTA", "type": "Pizzaria / Delivery", "strategic_focus": "Eficiência logística e produtividade da cozinha." }
+  ],
+  "strategic_goals_2026": [
+    "Crescimento YoY: +15% em faturamento constante.",
+    "Margem Líquida Global: > 12% após todas as despesas operacionais.",
+    "Redução de Desperdício (RETRABALHO): Meta < 3% do faturamento.",
+    "Giro de Estoque: Mínimo de 12 vezes por mês para produtos frescos."
+  ],
+  "ai_instructions": "O analista deve usar estes benchmarks para criticar ou elogiar os resultados mensais. Se o CMV estiver acima de 33%, sinalizar como crítico. Se a ML estiver abaixo de 8%, recomendar auditoria de custos fixos."
+}
